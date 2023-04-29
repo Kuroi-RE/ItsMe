@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Study = () => {
   return (
     <>
-      <div className="container h-screen mx-auto max-w-3xl tracking-wide flex gap-8 flex-col md:flex-row items-center md:items-start justify-start py-16">
+      <div className="container h-screen mx-auto max-w-3xl tracking-wide flex gap-8 flex-col justify-start py-16 md:flex-row items-center md:items-start ">
         <div className="card flex flex-col h-48 w-64 text-center justify-center">
           <h1 className="text-lg pt-1 text-center font-semibold underline underline-offset-2 cursor-help hover:text-blue-500">
             <Link className="cursor-help" to="https://dicoding.com">
