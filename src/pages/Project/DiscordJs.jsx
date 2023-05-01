@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import {
-  faBootstrap,
+  faDiscord,
   faGithub,
   faNodeJs,
-  faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
 const MovieApp = () => {
@@ -15,7 +14,7 @@ const MovieApp = () => {
     <div className="container py-24 flex flex-col gap-7 text-center items-center">
       <div className="flex flex-col gap-6">
         <h1 className="text-3xl font-bold tracking-wider underline">
-          Movie APP
+          Discord Bot
         </h1>
         <div className="flex gap-4 justify-center">
           <span>
@@ -31,24 +30,17 @@ const MovieApp = () => {
           </span>
           <span>
             <FontAwesomeIcon
-              icon={faReact}
+              icon={faDiscord}
               flip
               size="xl"
               style={{ color: "#3477ea" }}
             />
           </span>
-          <span>
-            <FontAwesomeIcon
-              icon={faBootstrap}
-              flip
-              size="xl"
-              style={{ color: "#045ffb" }}
-            />
-          </span>
         </div>
         <p className="tracking-wide">
-          Website tempat mencari sebuah film yang ingin kamu lihat sinopsis atau
-          detail lainnya. Dan juga bisa melihat popular film!
+          Awal project saya menggunakan node js yaitu Discord Js, membuat bot
+          discord untuk sebuah Server dengan Api yang sudah disediakan oleh
+          Discord sendiri.
         </p>
       </div>
       <div className="flex flex-col">
@@ -56,23 +48,11 @@ const MovieApp = () => {
         <ul>
           <li className="flex gap-3 justify-start text-start items-center font-semibold">
             <FontAwesomeIcon icon={faArrowRight} />
-            Express JS
+            NODE JS
           </li>
           <li className="flex gap-3 justify-start text-start items-center font-semibold">
             <FontAwesomeIcon icon={faArrowRight} />
-            Mysql
-          </li>
-          <li className="flex gap-3 justify-start text-center items-center font-semibold">
-            <FontAwesomeIcon icon={faArrowRight} />
-            React JS
-          </li>
-          <li className="flex gap-3 justify-start text-center items-center font-semibold">
-            <FontAwesomeIcon icon={faArrowRight} />
-            Google Fonts
-          </li>
-          <li className="flex gap-3 justify-start text-center items-center font-semibold">
-            <FontAwesomeIcon icon={faArrowRight} />
-            Bootstrap
+            Discord JS
           </li>
         </ul>
       </div>
@@ -80,12 +60,12 @@ const MovieApp = () => {
         <h2 className="text-2xl font-bold tracking-wider">Screenshot:</h2>
         <img
           className="w-96"
-          src="https://media.discordapp.net/attachments/811050553839845407/1102093963734822912/image.png?width=946&height=480"
-          alt="movie-app"
+          src="https://media.discordapp.net/attachments/811050553839845407/1102099197043409036/image.png?width=1025&height=478"
+          alt="discord"
         />
         <div>
           <Button variant="info">
-            <Link to="http://192.168.0.2:5000/">Visit</Link>
+            <Link to="/">Visit</Link>
           </Button>
         </div>
       </div>

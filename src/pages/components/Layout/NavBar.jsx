@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBook,
+  faCamera,
   faGraduationCap,
   faHome,
+  faMessage,
 } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
@@ -17,8 +18,13 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link className="text-2xl text-black" to="/project">
-              <FontAwesomeIcon icon={faBook} />
+            <Link className="text-2xl text-black" to="/live-project">
+              <FontAwesomeIcon icon={faMessage} />
+            </Link>
+          </li>
+          <li>
+            <Link className="text-2xl text-black" to="/my-camera">
+              <FontAwesomeIcon icon={faCamera} />
             </Link>
           </li>
           <li>
