@@ -4,7 +4,7 @@ import {
   faCamera,
   faGraduationCap,
   faHome,
-  faMessage,
+  faMusic,
 } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
@@ -18,8 +18,8 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link className="text-2xl text-black" to="/live-project">
-              <FontAwesomeIcon icon={faMessage} />
+            <Link className="text-2xl text-black" to="/study">
+              <FontAwesomeIcon icon={faGraduationCap} />
             </Link>
           </li>
           <li>
@@ -28,8 +28,8 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link className="text-2xl text-black" to="/study">
-              <FontAwesomeIcon icon={faGraduationCap} />
+            <Link className="text-2xl text-black" to="/music">
+              <FontAwesomeIcon icon={faMusic} />
             </Link>
           </li>
         </ul>
