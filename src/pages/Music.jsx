@@ -10,14 +10,14 @@ const Music = () => {
         </h1>
       </div>
       <div className="flex flex-col gap-5 py-6">
-        {MusicData().data.map((e, key) => {
+        {MusicData().data.map((data, key) => {
           return (
             <React.Fragment key={key}>
               <List
-                img_url={e.img_url}
-                title_song={e.title_song}
-                artist={e.artist}
-                song_url={e.song_url}
+                img_url={data.img_url}
+                title_song={data.title_song}
+                artist={data.artist}
+                song_url={data.song_url}
               />
             </React.Fragment>
           );

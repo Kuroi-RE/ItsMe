@@ -10,9 +10,9 @@ const NotFound = () => {
             404 Not Found
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde
-            libero eveniet quisquam aspernatur, dolores saepe nulla error
-            accusantium delectus!
+            In code 404, the first digit indicates a client error, such as a
+            mistyped Uniform Resource Locator (URL). The following two digits
+            indicate the specific error encountered.
           </p>
           <div>
             <Button variant="warning">

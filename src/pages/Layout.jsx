@@ -6,7 +6,7 @@ const Layout = () => {
   return (
     <>
       <Header />
-      <main className="w-full bg-azure bg-center bg-fixed text-base-0 bg-base-0 text-gray-100">
+      <main className="w-full bg-center bg-fixed text-base-0 bg-base-0 text-gray-100">
         <Outlet />
       </main>
       <NavBar />

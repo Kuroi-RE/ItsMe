@@ -27,11 +27,11 @@ const App = () => {
             </li>
             <li className="flex gap-5 justify-start items-center text-lg font-semibold">
               <FontAwesomeIcon icon={faHeart} />
-              Syiva
+              Syvva
             </li>
             <li className="flex gap-5 justify-start items-center text-lg font-semibold">
               <FontAwesomeIcon icon={faArrowRight} />
-              Dude
+              Other
             </li>
           </ul>
         </div>

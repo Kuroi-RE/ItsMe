@@ -1,55 +1,60 @@
 import { Link } from "react-router-dom";
+import web_dasar from "../assets/images/web_dasar.png";
+import javascript from "../assets/images/javascript.png";
+import backend from "../assets/images/back_end.png";
 
 const Study = () => {
   return (
     <>
-      <div className="flex flex-col mx-auto max-w-3xl tracking-wide py-24">
-        {/* No 1 */}
-        <div className="flex gap-8 flex-col justify-center items-center tablet:flex-row">
-          <div className="card flex flex-col h-48 w-64 text-center justify-center tablet:w-96 tablet:h-80">
-            <h1 className="text-lg pt-1 text-center font-semibold underline underline-offset-2 cursor-help hover:text-blue-500">
-              <Link className="cursor-help" to="/smk">
-                High School
-              </Link>
-            </h1>
-            <p className="tracking-wide tablet:mx-2">
-              Fresh Gradulation from SMK Binawiyata Karangmalang Sragen 2019 -
-              2023
-            </p>
+      <div className="flex flex-col mx-auto gap-11 tracking-wide py-24">
+        <div className="flex flex-row gap-10 justify-center items-center text-start max-[640px]:flex-col max-[640px]:text-center max-[640px]:gap-5">
+          <div>
+            <Link to="/pdf/pdasar.pdf" target="_blank" download>
+              <img src="" className="w-80" alt="web_dasar" srcSet={web_dasar} />
+            </Link>
           </div>
-          <div className="card flex flex-col h-64 w-64 text-center justify-center tablet:w-96 tablet:h-80">
-            <h1 className="text-lg pt-1 text-center font-semibold underline underline-offset-2 cursor-help hover:text-blue-500">
-              <Link className="cursor-help" to="/smk">
-                TOEIC
-              </Link>
-            </h1>
-            <p className="tracking-wide tablet:mx-1">
-              global standard for assessing English-language communication
-              skills needed in the workplace and everyday life.
+          <div className="w-72">
+            <h1 className="font-bold">DICODING CERTIFICATE</h1>
+            <p>
+              Sertifikat pertama saya dari Dicoding. Mempelajari tentang
+              dasar-dasar pemgrograman web dengan Html&Css
             </p>
           </div>
         </div>
-        {/* No 1 */}
-        <div className="flex gap-8 flex-col justify-center items-center py-16 tablet:flex-row">
-          <div className="card flex flex-col h-48 w-64 text-center justify-center tablet:w-96 tablet:h-80">
-            <h1 className="text-lg pt-1 text-center font-semibold underline underline-offset-2 cursor-help hover:text-blue-500">
-              <Link className="cursor-help" to="https://dicoding.com">
-                Dicoding.com
-              </Link>
-            </h1>
-            <p className="tracking-wide">
-              Certificate from dicoding in Fundamental Web & Javascript
-              Programming language
+
+        <div className="flex flex-row gap-10 justify-center items-center text-start max-[640px]:flex-col max-[640px]:text-center max-[640px]:gap-5">
+          <div>
+            <Link to="/pdf/js_serti.pdf" target="_blank" download>
+              <img
+                src=""
+                className="w-80"
+                alt="javascript"
+                srcSet={javascript}
+              />
+            </Link>
+          </div>
+          <div className="w-72">
+            <h1 className="font-bold">DICODING CERTIFICATE</h1>
+            <p>
+              Sertifikat kedua saya adalah Dasar Pemgrograman Javascript.
+              Mempelajari tentang fundamental js, mempelajari tentang node js
+              dan banyak lagi
             </p>
           </div>
-          <div className="card flex flex-col h-48 w-64 text-center justify-center tablet:w-96 tablet:h-80">
-            <h1 className="text-lg pt-1 text-center font-semibold underline underline-offset-2 cursor-help hover:text-blue-500">
-              <Link className="cursor-help" to="/cisco">
-                CCNA
-              </Link>
-            </h1>
-            <p className="tracking-wide">
-              Certificate CCNA-v7 from Cisco Networking Academy about Networking
+        </div>
+
+        <div className="flex flex-row gap-10 justify-center items-center text-start max-[640px]:flex-col max-[640px]:text-center max-[640px]:gap-5">
+          <div>
+            <Link to="/pdf/backend_serti.pdf" target="_blank" download>
+              <img src="" className="w-80" alt="backend" srcSet={backend} />
+            </Link>
+          </div>
+          <div className="w-72">
+            <h1 className="font-bold">DICODING CERTIFICATE</h1>
+            <p>
+              Sertifikat ketiga adalah Membuat Aplikasi Backend. Mempelajari
+              bagaimana kerja API, mempelajari tentang Web Service. Membuat
+              sebuah Restfull API
             </p>
           </div>
         </div>
