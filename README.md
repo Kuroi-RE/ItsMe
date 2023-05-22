@@ -18,12 +18,7 @@ My simple portofolio with React js
 
 - Home
 - Project Show
-- Chat with Bot
 
 ## Screenshots
 
 ![App Screenshot](https://media.discordapp.net/attachments/811050553839845407/1101880104029790301/image.png?width=1025&height=397)
-
-## More
-
-- This project need a sec server to starting chat messages [socket.io]

@@ -5,7 +5,7 @@ import PhotoList from "./components/Photography/PhotoList";
 const Project = () => {
   return (
     <>
-      <div className="mx-5 tracking-wide flex gap-11 flex-row items-center justify-start py-24 max-[640px]:flex-col">
+      <div className="h-screen mx-5 tracking-wide flex gap-11 flex-row items-center justify-start py-24 max-[640px]:flex-col max-[640px]:h-full">
         {PhotoData().data.map((photo, index) => {
           return (
             <React.Fragment key={index}>

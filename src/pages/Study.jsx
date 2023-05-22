@@ -6,7 +6,7 @@ import backend from "../assets/images/back_end.png";
 const Study = () => {
   return (
     <>
-      <div className="flex flex-col mx-auto gap-11 tracking-wide py-24">
+      <div className="flex flex-col mx-auto gap-11 tracking-wide py-24 text-black dark:text-white">
         <div className="flex flex-row gap-10 justify-center items-center text-start max-[640px]:flex-col max-[640px]:text-center max-[640px]:gap-5">
           <div>
             <Link to="/pdf/pdasar.pdf" target="_blank" download>

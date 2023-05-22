@@ -9,11 +9,11 @@ import {
 const Home = () => {
   return (
     <>
-      <div className="container mx-auto tracking-wide flex gap-11 flex-col items-start justify-start py-24">
+      <div className="container mx-auto tracking-wide flex gap-11 flex-col items-start justify-start py-24 text-black dark:text-white">
         <div>
           <h1 className="text-2xl font-bold">
             Hi there! I'm{" "}
-            <span className="text-blue-100 underline font-sans cursor-pointer">
+            <span className="text-white dark:text-blue-100 underline font-sans cursor-pointer  ">
               <Link to="/syiva">Ramadhan</Link>
             </span>{" "}
             🌼
@@ -32,6 +32,11 @@ const Home = () => {
             <span className="font-extrabold hover:text-blue-700 cursor-pointer">
               <Link to="https://facebook.com/rainramadhan27">Facebook</Link>
             </span>{" "}
+            and if you interested about{" "}
+            <span className="font-extrabold hover:text-blue-700 cursor-pointer">
+              <Link to="/items">my item</Link>
+            </span>{" "}
+            find it now
           </p>
         </div>
         <div>

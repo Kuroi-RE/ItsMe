@@ -17,23 +17,25 @@ import Music from "./pages/Music";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="my-camera" element={<Photography />} />
-          <Route path="study" element={<Study />} />
-          <Route path="music" element={<Music />} />
-          <Route path="movie-app" element={<MovieApp />} />
-          <Route path="project-ig" element={<Instagram />} />
-          <Route path="project-todo" element={<TodoApp />} />
-          <Route path="project-discord" element={<Discord />} />
-          <Route path="ram-bank" element={<RamBank />} />
-          <Route path="syiva" element={<Syiva />} />
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <div className="bg-fixed bg-cover bg-center bg-light dark:bg-dark">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="my-camera" element={<Photography />} />
+            <Route path="study" element={<Study />} />
+            <Route path="music" element={<Music />} />
+            <Route path="movie-app" element={<MovieApp />} />
+            <Route path="project-ig" element={<Instagram />} />
+            <Route path="project-todo" element={<TodoApp />} />
+            <Route path="project-discord" element={<Discord />} />
+            <Route path="ram-bank" element={<RamBank />} />
+            <Route path="syiva" element={<Syiva />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

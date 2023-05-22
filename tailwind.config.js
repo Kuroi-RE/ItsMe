@@ -4,6 +4,7 @@
 
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     container: {
       padding: {
@@ -16,7 +17,12 @@ module.exports = {
       center: true,
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        dark: "url('https://wallpapercave.com/wp/wp6775372.jpg')",
+        light: "url('https://wallpapercave.com/uwp/uwp3723310.jpeg')",
+      },
+    },
   },
   plugins: [require("tailwind-scrollbar")({ nocompatible: true })],
 };

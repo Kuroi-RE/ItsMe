@@ -4,7 +4,7 @@ import Button from "./components/Utilities/Button";
 const NotFound = () => {
   return (
     <>
-      <div className="container py-24 flex items-center text-center justify-center">
+      <div className="h-screen container py-24 flex items-center text-center justify-center">
         <div className="flex flex-col gap-10">
           <h1 className="text-red-600 font-bold tracking-widest text-3xl">
             404 Not Found
