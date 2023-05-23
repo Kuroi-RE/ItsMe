@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCamera,
+  faComputer,
   faGraduationCap,
   faHome,
   faMusic,
@@ -23,8 +23,8 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link className="text-2xl text-black" to="/my-camera">
-              <FontAwesomeIcon icon={faCamera} />
+            <Link className="text-2xl text-black" to="/space">
+              <FontAwesomeIcon icon={faComputer} />
             </Link>
           </li>
           <li>

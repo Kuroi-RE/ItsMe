@@ -10,8 +10,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const MovieApp = () => {
+  const alert = () => {
+    window.alert("This project runs on a local server.");
+  };
+
   return (
-    <div className="container py-24 flex flex-col gap-7 text-center items-center">
+    <div className="container py-24 flex flex-col gap-7 text-center items-center text-black dark:text-white">
       <div className="flex flex-col gap-6">
         <h1 className="text-3xl font-bold tracking-wider underline">
           Discord Bot
@@ -38,9 +42,10 @@ const MovieApp = () => {
           </span>
         </div>
         <p className="tracking-wide">
-          Awal project saya menggunakan node js yaitu Discord Js, membuat bot
-          discord untuk sebuah Server dengan Api yang sudah disediakan oleh
-          Discord sendiri.
+          My first project using nodejs, namely Discord.js, made a discord
+          application bot for server needs, several economy commands that are
+          directly connected to the database. And some moderation commands such
+          as kick, ban, mute and more.
         </p>
       </div>
       <div className="flex flex-col">
@@ -65,7 +70,7 @@ const MovieApp = () => {
         />
         <div>
           <Button variant="info">
-            <Link to="/">Visit</Link>
+            <Link onClick={() => alert()}>Visit</Link>
           </Button>
         </div>
       </div>

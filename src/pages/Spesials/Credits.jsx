@@ -75,10 +75,6 @@ const App = () => {
               <FontAwesomeIcon icon={faLaptopCode} />
               FONTAWESOME
             </li>
-            <li className="flex gap-5 justify-start items-center text-lg font-semibold">
-              <FontAwesomeIcon icon={faLaptopCode} />
-              HERO SLIDER
-            </li>
           </ul>
         </div>
       </div>

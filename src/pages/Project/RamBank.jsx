@@ -6,8 +6,11 @@ import { faArrowRight, faFontAwesome } from "@fortawesome/free-solid-svg-icons";
 import { faCss3, faGithub, faHtml5 } from "@fortawesome/free-brands-svg-icons";
 
 const RamBank = () => {
+  const alert = () => {
+    window.alert("This project runs on a local server.");
+  };
   return (
-    <div className="container py-24 flex flex-col gap-7 text-center items-center">
+    <div className="container py-24 flex flex-col gap-7 text-center items-center text-black dark:text-white">
       <div className="flex flex-col gap-6">
         <h1 className="text-3xl font-bold tracking-wider underline">RamBank</h1>
         <div className="flex gap-4 justify-center">
@@ -40,7 +43,8 @@ const RamBank = () => {
           </span>
         </div>
         <p className="tracking-wide">
-          Project Interface Bank, dengan landing page, form registrasi dan login
+          UI/UX projext interface, project interface of a Bank website, there is
+          a landing page, login and register page and dashboard.
         </p>
       </div>
       <div className="flex flex-col">
@@ -77,7 +81,7 @@ const RamBank = () => {
         />
         <div>
           <Button variant="info">
-            <Link to="/">Visit</Link>
+            <Link onClick={() => alert()}>Visit</Link>
           </Button>
         </div>
       </div>

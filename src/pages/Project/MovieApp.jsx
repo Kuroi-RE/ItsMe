@@ -11,8 +11,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const MovieApp = () => {
+  const alert = () => {
+    window.alert("This project runs on a local server.");
+  };
   return (
-    <div className="container py-24 flex flex-col gap-7 text-center items-center">
+    <div className="container py-24 flex flex-col gap-7 text-center items-center text-black dark:text-white">
       <div className="flex flex-col gap-6">
         <h1 className="text-3xl font-bold tracking-wider underline">
           Movie APP
@@ -47,8 +50,9 @@ const MovieApp = () => {
           </span>
         </div>
         <p className="tracking-wide">
-          Website tempat mencari sebuah film yang ingin kamu lihat sinopsis atau
-          detail lainnya. Dan juga bisa melihat popular film!
+          A website that can search for a film that you want to see details such
+          as synopsis, rating, release, you can also see trending film that you
+          can use for viewing rekommendations!
         </p>
       </div>
       <div className="flex flex-col">
@@ -85,7 +89,7 @@ const MovieApp = () => {
         />
         <div>
           <Button variant="info">
-            <Link to="http://192.168.0.2:5000/">Visit</Link>
+            <Link onClick={() => alert()}>Visit</Link>
           </Button>
         </div>
       </div>

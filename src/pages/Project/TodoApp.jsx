@@ -11,8 +11,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const TodoApp = () => {
+  const alert = () => {
+    window.alert("This project runs on a local server.");
+  };
   return (
-    <div className="container py-24 flex flex-col gap-7 text-center items-center">
+    <div className="container py-24 flex flex-col gap-7 text-center items-center text-black dark:text-white">
       <div className="flex flex-col gap-6">
         <h1 className="text-3xl font-bold tracking-wider underline">
           Todo App
@@ -46,7 +49,10 @@ const TodoApp = () => {
             />
           </span>
         </div>
-        <p className="tracking-wide">Project sejuta umat yaitu Todo List:)</p>
+        <p className="tracking-wide">
+          Popular Project for Developer, enter the task and complete it. Mark as
+          Done!
+        </p>
       </div>
       <div className="flex flex-col">
         <h1 className="text-2xl font-bold tracking-wider">Tech Stack:</h1>
@@ -78,7 +84,7 @@ const TodoApp = () => {
         />
         <div>
           <Button variant="info">
-            <Link to="/">Visit</Link>
+            <Link onClick={() => alert()}>Visit</Link>
           </Button>
         </div>
       </div>

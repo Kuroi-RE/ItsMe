@@ -6,8 +6,11 @@ import { faArrowRight, faFontAwesome } from "@fortawesome/free-solid-svg-icons";
 import { faCss3, faGithub, faHtml5 } from "@fortawesome/free-brands-svg-icons";
 
 const Instagram = () => {
+  const alert = () => {
+    window.alert("This project runs on a local server.");
+  };
   return (
-    <div className="container py-24 flex flex-col gap-7 text-center items-center">
+    <div className="container py-24 flex flex-col gap-7 text-center items-center text-black dark:text-white">
       <div className="flex flex-col gap-6">
         <h1 className="text-3xl font-bold tracking-wider underline">
           Instagram Clone
@@ -42,8 +45,8 @@ const Instagram = () => {
           </span>
         </div>
         <p className="tracking-wide">
-          Duplicate atau mengcopy style UI/UX dari website Instagram untuk
-          sekedar mengetest skill saya dalam bagian Front-End Developer
+          Cloning Project, this is a project that copies the UI from instagram
+          to test my skills in the 'FrontEnd' Developer field.
         </p>
       </div>
       <div className="flex flex-col">
@@ -76,7 +79,7 @@ const Instagram = () => {
         />
         <div>
           <Button variant="info">
-            <Link to="/">Visit</Link>
+            <Link onClick={() => alert()}>Visit</Link>
           </Button>
         </div>
       </div>

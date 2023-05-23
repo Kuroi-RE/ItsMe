@@ -32,11 +32,6 @@ const Home = () => {
             <span className="font-extrabold hover:text-blue-700 cursor-pointer">
               <Link to="https://facebook.com/rainramadhan27">Facebook</Link>
             </span>{" "}
-            and if you interested about{" "}
-            <span className="font-extrabold hover:text-blue-700 cursor-pointer">
-              <Link to="/items">my item</Link>
-            </span>{" "}
-            find it now
           </p>
         </div>
         <div>
@@ -54,7 +49,10 @@ const Home = () => {
                   Movie App
                 </Link>
               </h3>
-              <p>A movie list website using API</p>
+              <p>
+                In this web You can search for movies, see trending movies, view
+                movie details and more
+              </p>
             </div>
             <div className="project">
               <h3 className="text-lg font-bold ">
@@ -65,7 +63,7 @@ const Home = () => {
                   Instagram Clone
                 </Link>
               </h3>
-              <p>Clone instagram interface to test my FrontEnd Skill.</p>
+              <p>A clone project, Instagram UI Design clone Challenge.</p>
             </div>
             <div className="project">
               <h3 className="text-lg font-bold ">
@@ -76,7 +74,9 @@ const Home = () => {
                   Todo APP
                 </Link>
               </h3>
-              <p>Simple Todo List App</p>
+              <p>
+                Very popular project, Todo APP! Enter the task and complete it.
+              </p>
             </div>
             <div className="project">
               <h3 className="text-lg font-bold ">
@@ -87,18 +87,21 @@ const Home = () => {
                   Discord Bot
                 </Link>
               </h3>
-              <p>A bot discord using official API from Discord (DISCORD JS)</p>
+              <p>
+                My first project using NODEJS, was a discord bot using the
+                discord.js module
+              </p>
             </div>
             <div className="project">
               <h3 className="text-lg font-bold ">
                 <Link
-                  to="ram-bank"
+                  to="project-bank"
                   className="hover:text-blue-700 cursor-pointer"
                 >
                   Ram Bank
                 </Link>
               </h3>
-              <p>Project UI/UX Halaman Bank</p>
+              <p>UI/UX project</p>
             </div>
           </div>
         </div>

@@ -7,13 +7,12 @@ import { faPlay } from "@fortawesome/free-solid-svg-icons";
 const List = (props) => {
   return (
     <>
-      <div className="flex flex-row gap-9 border rounded-lg justify-between items-center text-center px-2 border-black dark:border-white">
+      <div className="flex flex-row gap-9 border rounded-lg justify-between items-center text-center px-2 border-black dark:border-white max-[430px]:text-xs">
         <div className="img w-16">
           <img
             srcSet={props.img_url}
-            className="rounded-md"
+            className="rounded-md w-full"
             alt="sasa"
-            style={{ width: "100%" }}
           />
         </div>
         <div className="judul">
