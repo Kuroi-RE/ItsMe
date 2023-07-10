@@ -63,8 +63,8 @@ const Space = () => {
                 <div className=" px-11 bg-gray-500 rounded-xl">
                   <img
                     className="h-40 rounded-lg"
-                    srcSet="https://i.ebayimg.com/00/s/MTAyNFgxMDI0/z/k0sAAOSwODFaYS9p/$_86.JPG"
-                    alt="laptop"
+                    srcSet="https://cf.shopee.co.id/file/sg-11134201-22110-8uz15rm92zjvb1"
+                    alt="keyboard"
                   />
                 </div>
               </div>

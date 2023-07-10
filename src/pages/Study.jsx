@@ -15,10 +15,6 @@ const Study = () => {
           </div>
           <div className="w-72">
             <h1 className="font-bold">DICODING CERTIFICATE</h1>
-            <p>
-              Sertifikat pertama saya dari Dicoding. Mempelajari tentang
-              dasar-dasar pemgrograman web dengan Html&Css
-            </p>
           </div>
         </div>
 
@@ -35,11 +31,6 @@ const Study = () => {
           </div>
           <div className="w-72">
             <h1 className="font-bold">DICODING CERTIFICATE</h1>
-            <p>
-              Sertifikat kedua saya adalah Dasar Pemgrograman Javascript.
-              Mempelajari tentang fundamental js, mempelajari tentang node js
-              dan banyak lagi
-            </p>
           </div>
         </div>
 
@@ -51,11 +42,6 @@ const Study = () => {
           </div>
           <div className="w-72">
             <h1 className="font-bold">DICODING CERTIFICATE</h1>
-            <p>
-              Sertifikat ketiga adalah Membuat Aplikasi Backend. Mempelajari
-              bagaimana kerja API, mempelajari tentang Web Service. Membuat
-              sebuah Restfull API
-            </p>
           </div>
         </div>
       </div>
